@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body, div {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #444;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 2em;
+}
+
+button {
+    border: none;
+    background-color: #777;
+    padding: 0.2em 0.5em;
+    color: #eee;
+    border-radius: 5px;
+}
+
+#spoiler {
+    position: relative;
+    width: 100%;
+    background-color: #cdcdcd;
+    border-radius: 5px;
+}
+
+#text_spoiler {
+    visibility: hidden;
+    padding: 2em;
+    font-size: 1em;
+    font-family: Helvetica, serif;
+    color: #222;
+}
+
+#spoiler img {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    width: 2%;
+    cursor: pointer;
+}
