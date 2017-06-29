@@ -1,0 +1,27 @@
+button {
+    display: block;
+    width: 20%;
+    margin: 2em auto;
+    background: linear-gradient(40deg, red, blue);
+    border-radius: 20px;
+    color: #eee;
+}
+
+main {
+    width: 100%;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 2px;
+}
+
+div:nth-child(odd) {
+    background-color: red;
+}
+
+div:nth-child(even) {
+    background-color: blue;
+}
