@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+h1 {
+    text-align: center;
+    color: #5DCCB0;
+}
+
+input, #result {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+}
