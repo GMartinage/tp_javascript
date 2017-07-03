@@ -1,0 +1,9 @@
+button {
+    display: block;
+    width: 20%;
+    margin: 2em auto;
+    background-color: #729672;
+    color: #eee;
+    font-size: 1em;
+    padding: 1em 0.5em;
+}
