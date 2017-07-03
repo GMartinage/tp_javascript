@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+		<title></title>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/exo_8_bis.css">
+		<script type="text/javascript" src="js/exo_8_bis.js"></script>
+	</head>
+	<body>
+		<main>
+			<h1>Formulaire d'inscription</h1>
+			<div id="form">
+
+				<input type="text" id="lastname" name="lastname" placeholder="Nom" />
+				
+				<input type="text" id="firstname" name="firstname" placeholder="Prénom" />
+
+				<select id="gender" name="gender">
+					<option value="">Sexe</option>
+					<option value="Femme">Femme</option>
+					<option value="Homme">Homme</option>
+				</select>
+
+				<input type="number" id="age" name="age" placeholder="Âge" />
+
+				<input type="text" id="address_1" name="address_1" placeholder="Rue">
+
+				<input type="text" id="address_3" name="address_3" placeholder="Code Postal">
+
+				<input type="text" id="address_2" name="address_2" placeholder="Ville">
+
+				<input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" />
+
+				<input type="text" id="password" name="password" placeholder="Mot de passe">
+
+				<button onclick="printForm(); document.getElementById('box').style.visibility='visible'">Envoyer</button>
+
+			</div>
+
+			<div id="box">
+			</div>
+		</main>
+	</body>
+</html>

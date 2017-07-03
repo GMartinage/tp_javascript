@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px #222;
+}
+
+#form {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0.5em auto;
+    padding: 4em;
+    background-color: #D48BFF;
+    border-radius: 15px;
+}
+
+input, select, button {
+    margin: 0.8em 1em;
+}
+
+input {
+    height: 6px;
+}
+
+#address_1 {
+    width: 94%;
+}
+
+#lastname, #firstname, #address_2, #address_3, #pseudo, #password {
+    width: 44%;
+    float: left;
+}
+
+#gender, #age {
+    width: 32%;
+    float: left;
+}
+
+#box {
+    visibility: hidden;
+    width: 50%;
+    height: auto;
+    margin: 2.2em auto;
+    background-color: #EBB6FF;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+#box p {
+    color: #A850A5;
+    font-weight: bolder;
+    margin: 0.5em 0;   
+}
