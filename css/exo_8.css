@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+label, input {
+    display: block;
+    width: 40%;
+    margin: 0.5em auto;
+}
+
+label {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    margin: 2.2em auto;
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    padding: 1.2em;
+}

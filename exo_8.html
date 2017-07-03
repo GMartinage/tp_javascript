@@ -12,6 +12,9 @@
 	</head>
 	<body>
 		<label for="name">Nom</label>
-		<input type="text" id="name" name="name" placeholder="Nom" onchange="console.log(myName);myName=this.value" />
+		<input type="text" id="name" name="name" placeholder="Nom" onchange="console.log(myName);myName=this.value; document.getElementById('box').innerHTML='Ton nom est ' + myName + '.';" />
+
+		<div id="box">
+		</div>
 	</body>
 </html>
