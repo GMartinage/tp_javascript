@@ -2,8 +2,17 @@ button {
     display: block;
     width: 20%;
     margin: 2em auto;
-    background-color: #729672;
+    background-color: #222;
     color: #eee;
     font-size: 1em;
     padding: 1em 0.5em;
+}
+
+#myDiv {
+    width: 250px;
+    height: 250px;
+    margin: 2em auto;
+    background-color: #eee;
+    border: 10px solid #ccc;
+    border-radius: 50%;
 }
