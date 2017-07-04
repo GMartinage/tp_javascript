@@ -8,12 +8,11 @@
 		<link rel="icon" type="image/png" href="favicon.png" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/exo_10.css">
-		<script type="text/javascript" src="js/exo_10.js"></script>
 	</head>
 	<body>
 		<h1>Pair ou impair ?</h1>
-		<input type="number" name="numbers" id="numbers" onchange="
-          if(parseInt(numbers.value)%2==0) {
+		<input type="number" id="number1" onchange="
+          if(parseInt(number1.value)%2==0) {
                 result.innerHTML = 'pair';
           }
           else {
@@ -21,5 +20,6 @@
           }" />
 
 		<div id="result"></div>
+        <script type="text/javascript" src="js/exo_10.js"></script>
 	</body>
 </html>

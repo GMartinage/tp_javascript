@@ -17,3 +17,13 @@ input, #result {
     width: 40%;
     margin: 1em auto;
 }
+
+#result {
+    margin-top: 1em;
+    padding: 2em;
+    border: 1px dashed #5DCCB0;
+    text-align: center;
+    color: #1F597D;
+    font-size: 2em;
+    font-weight: bold;
+}
