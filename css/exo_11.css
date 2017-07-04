@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+#fizzbuzz {
+    width: 20%;
+    margin: 1em auto;
+    text-align: center;
+    font-weight: bold;
+    color: #7BCDBE;
+}
