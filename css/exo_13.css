@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+body {
+    background-color: #eee;
+    text-align: center;
+}
+
+#boxes {
+    width: 75%;
+    margin: 3em auto 0 auto;
+}
+
+#boxes div {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
