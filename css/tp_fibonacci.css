@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body, div {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #FD8F8F;
+}
+
+img {
+    width: 10%;
+}
