@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, serif;
+}
+
+body {
+    background-color: #eee;
+    text-align: center;
+}
