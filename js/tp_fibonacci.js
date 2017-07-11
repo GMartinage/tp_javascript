@@ -1,26 +1,31 @@
-var nbre = document.getElementById("nbre").value;
+result = localStorage.getItem("résultat");
+console.log(localStorage.getItem("résultat"));
 
-var result = document.getElementById("result").innerHTML;
-
-var min_nbre = 1;
-var max_nbre = 20;
-var nbre = function() {
-  return nbre >= min_nbre && nbre <= max_nbre;
+var reset = function() {
+  document.getElementById("result").innerHTML = " ";
 }
 
 var fibonacci = function()
 {
+  var nbre = document.getElementById("nbre").value;
+
   var nb_1 = 0, nb_2 = 1;
 
   for(var i = 0; i < nbre; i++)
   {
+
+    reset();
+
     var result = nb_1 + nb_2;
 
+    localStorage.setItem("résultat", result);
     console.log(result);
 
     nb_1 = nb_2;
     nb_2 = result;
-  }
-}
 
-fibonacci();
+    document.getElementById("result").innerHTML += result + "<br />";
+    
+  }
+  
+}
