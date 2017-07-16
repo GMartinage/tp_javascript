@@ -11,19 +11,22 @@
 	</head>
 	<body>
 
-		<form action="" method="get">
+		<input id="name" type="text" name="name" placeholder="Name of your hero" />
 
-			<input id="name" type="text" name="name" placeholder="Name of your hero" />
+		<input id="agility" type="number" name="agility" placeholder="Agility" />
 
-			<input id="agility" type="number" name="agility" placeholder="Agility" />
+		<input id="strength" type="number" name="strength" placeholder="Strength" />
 
-			<input id="strength" type="number" name="strength" placeholder="Strength" />
+		<input id="endurance" type="number" name="endurance" placeholder="Endurance" />
 
-			<input id="endurance" type="number" name="endurance" placeholder="Endurance" />
+		<button onclick="saveHero()">Save</button>
 
-			<button onclick="setRandomNumber('agility')">Save</button>
-			
-		</form>
+		<div id="save"></div>
+
+		<div id="heroes">
+			<h1>Heroes :</h1>
+
+		</div>
 
 		<script type="text/javascript" src="js/tp_heroes.js"></script>
 	</body>
